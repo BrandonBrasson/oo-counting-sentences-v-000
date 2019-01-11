@@ -10,6 +10,7 @@ class String
 
   def question?
     self.end_with?("?")
+  return false
   end
 
   def exclamation?
