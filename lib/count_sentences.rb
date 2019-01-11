@@ -4,7 +4,8 @@ require 'pry'
 class String
 
   def sentence?
-    self.true end_with?(".")
+    self.end_with?(".")
+   return true
   end
 
   def question?
