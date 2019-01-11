@@ -10,7 +10,7 @@ class String
 
   def question?
     self.end_with?("?")
-  return false
+  return 
   end
 
   def exclamation?
@@ -20,6 +20,6 @@ class String
 
   def count_sentences
     self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
-    return true
+    return false
   end
 end
